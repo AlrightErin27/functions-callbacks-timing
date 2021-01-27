@@ -6,6 +6,12 @@ invoke the function
 log the variable's value after you invoke the function 
 */  //  //  //  //  //  //  //  //
 
+//  let varOne = "Hello";
+//  function talking() {
+//      console.log(varOne + " World!");
+//  }
+//  talking()
+
 /*  //  //  //  //  //  //  //  //
 2. 
 write a function that assigns a numerical value to number1 and number2
@@ -13,10 +19,22 @@ write a second function that multiplies number1 by number2 and assigns the produ
 write a third function that prints result's value in the console
 invoke the three functions in order
 */  //  //  //  //  //  //  //  //
+// let number1
+// let number2
+// let result
 
-let number1
-let number2
-let result
+// function assignNumbers() {
+//     number1 = 5
+//     number2 = 10
+//     console.log(number1, number2)
+// }
+// assignNumbers()
+
+// function multiNumbers() {
+//     result = number1 * number2
+//     console.log(result)
+// }
+// multiNumbers()
 
 /*  //  //  //  //  //  //  //  //
 3. 
@@ -24,6 +42,12 @@ write a function that accepts a number as a parameter, squares it (multiplies it
 invoke the function and assign its return to a new variable
 print the variable
 */  //  //  //  //  //  //  //  //
+
+// function square(numberA) {
+//     return numberA * numberA
+// }
+// let squareTest = square(27)
+// console.log(squareTest)
 
 /*  //  //  //  //  //  //  //  //
 4. 
@@ -36,6 +60,13 @@ output: "54"
 example input: 67, 1
 output: "671"
 */  //  //  //  //  //  //  //  //
+
+function twoParameters(interger1, interger2) {
+    interger1 = ["Jelly" , "Cake" , "Custard"];
+    interger2 = ["Trash" , "Rotten Fish" , "Pimples"];
+    return interger1 + " " + interger2
+}
+twoParameters()
 
 /*  //  //  //  //  //  //  //  //
 5. 
